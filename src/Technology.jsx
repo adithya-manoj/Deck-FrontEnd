@@ -1,9 +1,11 @@
 import React from 'react';
+import './TabStyle.css'
 import NavBarComp from './NavBarComp';
 
 const Technology = () => {
   return (
     <div>
+      <div className='ContentContainer'>
     <h1>The Evolution of Smartphones: Innovations Shaping the Future of Mobile Technology</h1>
     <p>In the ever-evolving landscape of technology, smartphones stand as the epitome of innovation, continually redefining the way we communicate, work, and interact with the world around us. From the introduction of the first iPhone in 2007 to the latest flagship releases of today, smartphones have undergone a remarkable transformation, driven by advancements in hardware, software, and user experience design.
 
@@ -22,7 +24,7 @@ Furthermore, biometric authentication methods have evolved to provide users with
 In addition to technological advancements, there is a growing emphasis on sustainability within the smartphone industry. Manufacturers are increasingly adopting eco-friendly practices, such as using recycled materials, reducing carbon emissions, and implementing energy-efficient manufacturing processes. By prioritizing sustainability, companies aim to minimize their environmental footprint and contribute to a more sustainable future.
 
 In conclusion, smartphones continue to push the boundaries of innovation, with advancements in 5G technology, foldable designs, camera capabilities, display technology, AI integration, biometric authentication, and sustainability initiatives shaping the future of mobile technology. As we look ahead, smartphones will undoubtedly play a central role in driving technological progress and shaping the way we connect and interact in an increasingly digital world.</p>
-
+</div>
     </div>
   )
 }

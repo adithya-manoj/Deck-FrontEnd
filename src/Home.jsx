@@ -131,7 +131,6 @@ let datas = [
 
 
     <FooterComp />
-    <AdminNav/>
     </>
   );
 };

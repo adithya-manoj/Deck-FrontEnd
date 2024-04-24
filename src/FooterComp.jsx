@@ -8,9 +8,9 @@ import 'bootstrap-icons/font/bootstrap-icons.css'
 function FooterComp() {
   return (
     <footer>
-
+      <div>
     <Container fluid>
-      <Row className="bg-black text-white">
+      <Row className="bg-black text-white p-5">
         <Col sm={2}>
         Deck.
         <p>© 2018 Deck </p>
@@ -46,6 +46,7 @@ function FooterComp() {
         </Col>
       </Row>
     </Container>
+    </div>
     </footer>
     
   )

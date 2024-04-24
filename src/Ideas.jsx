@@ -1,8 +1,10 @@
 import React from 'react'
+import './TabStyle.css'
 
 const Ideas = () => {
   return (
     <div>
+        <div className='ContentContainer'>
         <h1>Exploring Cutting-Edge Trends in Smartphone Technology: Ideas and Innovations</h1>
         <p>In the fast-paced world of technology, smartphones stand out as one of the most dynamic and transformative inventions of our time. These pocket-sized marvels have evolved from mere communication devices to indispensable tools that shape how we work, play, and connect with the world around us. As we look to the horizon of smartphone technology, several key trends and innovations are poised to redefine the landscape of mobile computing. In this essay, we will explore some of these cutting-edge ideas and their potential impact on the future of smartphones.
 
@@ -17,6 +19,7 @@ Speaking of artificial intelligence, AI integration is becoming increasingly per
 Finally, as concerns about environmental sustainability continue to grow, smartphone manufacturers are embracing eco-friendly initiatives to reduce their environmental footprint. From using recycled materials in device construction to implementing energy-efficient manufacturing processes and offering sustainable end-of-life solutions for electronic waste, the industry is taking steps to minimize its impact on the planet. By prioritizing sustainability, smartphone companies not only demonstrate corporate responsibility but also pave the way for a more sustainable future for generations to come.
 
 In conclusion, the future of smartphone technology is brimming with promise and potential. From the widespread adoption of 5G connectivity to the continued evolution of foldable devices, advanced camera technology, AI integration, and sustainability initiatives, smartphones are poised to become even more integral to our lives in the years to come. As we embrace these innovations and explore their implications, let us seize the opportunity to harness the power of technology to create a brighter, more connected future for all.</p>
+    </div>
     </div>
   )
 }

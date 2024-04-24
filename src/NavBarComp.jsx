@@ -10,23 +10,24 @@ function NavBarComp() {
     <div>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
-          <Navbar.Brand href="#home">Deck.</Navbar.Brand>
+          
+          <Navbar.Brand> <Link to="/" className='fw-bold text-decoration-none text-reset text-dark'>Deck.</Link> </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse>
 
             <Nav className="me-auto">
-              <Nav.Link href="#technology" id="basic-navbar-nav"><Link to="/Technology">TECHNOLOGY</Link></Nav.Link>
-              <Nav.Link id="basic-navbar-nav"><Link to="/Ideas">IDEAS</Link></Nav.Link>
-              <Nav.Link id="basic-navbar-nav"><Link to="/Leadership">LEADERSHIP</Link></Nav.Link>
+              <Nav.Link id="basic-navbar-nav"><Link to="/Technology" className='fw-bold text-decoration-none text-reset text-dark'>TECHNOLOGY</Link></Nav.Link>
+              <Nav.Link id="basic-navbar-nav"><Link to="/Ideas" className='fw-bold text-decoration-none text-reset text-dark'>IDEAS</Link></Nav.Link>
+              <Nav.Link id="basic-navbar-nav"><Link to="/Leadership" className='fw-bold text-decoration-none text-reset text-dark'>LEADERSHIP</Link></Nav.Link>
             
-              <Nav.Link href="#video">VIDEO</Nav.Link>
-              <Nav.Link href="#news">NEWS</Nav.Link>
-              <Nav.Link href="#finance">FINANCE</Nav.Link>
-              <Nav.Link href="#entertainment">ENTERTAINMENT</Nav.Link>
+              <Nav.Link>VIDEO</Nav.Link>
+              <Nav.Link>NEWS</Nav.Link>
+              <Nav.Link>FINANCE</Nav.Link>
+              <Nav.Link>ENTERTAINMENT</Nav.Link>
             </Nav>
 
             <Nav>
-              <Nav.Link><Link to="/Login">Login</Link> </Nav.Link>
+              <Nav.Link><Link to="/Login" className='btn btn-dark text-light fw-bold text-decoration-none'>Login</Link> </Nav.Link>
             </Nav>
 
           </Navbar.Collapse>

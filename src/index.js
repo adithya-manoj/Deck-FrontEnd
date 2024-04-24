@@ -12,7 +12,7 @@ import Ideas from './Ideas';
 import Leadership from './Leadership';
 
 import NavBarComp from './NavBarComp';
-import Login from './login';
+import { Login } from './login';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

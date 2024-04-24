@@ -1,0 +1,9 @@
+.ContentContainer{
+    background: rgb(147, 195, 170);
+    padding: 3%;
+    height: 90vh;
+}
+
+.ContentContainer h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
