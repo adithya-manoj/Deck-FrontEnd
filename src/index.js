@@ -10,11 +10,15 @@ import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import Technology from './Technology';
 import Ideas from './Ideas';
 import Leadership from './Leadership';
-
 import NavBarComp from './NavBarComp';
 import { Login } from './login';
+import { Provider } from 'react-redux';
+import {store} from './store';
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <Provider store={store}>
+
   <React.StrictMode>
     <BrowserRouter>
     <Routes>
@@ -28,5 +32,6 @@ root.render(
     </Routes>
     </BrowserRouter>
   </React.StrictMode>
+  </Provider>
 );
 
